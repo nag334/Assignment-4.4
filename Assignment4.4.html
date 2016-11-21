@@ -5,6 +5,7 @@
     </head>
     <!-- Css style for Image  -->
     <style>
+        /* Css styles for all 3 divs with bg color green */
         div{
             display:inline-block;
             border-radius: 10px;
@@ -12,17 +13,19 @@
             width:100px;
             background: green;
         }
+        /* linear gradient with green , red */
         .Image1{
          
             background: -webkit-linear-gradient(left,green,red);
             background: linear-gradient(left,green,red);
         }
-        
+        /*  Radial gradient circle with red yellow green */
         .Image2{
           
             background: -webkit-radial-gradient(top,circle,red,Yellow,green);
             background: radial-gradient(top,circle,red,yellow,green);
         }
+        /*  Radial gradient ellipse with red yellow green */
         .Image3{
            
             background: -webkit-radial-gradient(top,ellipse,red,yellow,green);
@@ -34,7 +37,7 @@
         }
     </style>
     <body>
-        <!-- Div with class name image  -->
+        <!-- Div with class name images  -->
       <center>
             <div class="Image1"><p>Box</p></div>
             <div class="Image2"><p>Box</p></div>
